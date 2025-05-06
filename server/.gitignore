@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.*.local
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Testing
+coverage/
+
+# Cache
+.cache/
+.next/
+out/
+
+# Monaco editor generated files
+*.map
+
+# Yarn / npm logs
+.pnpm-debug.log
+package-lock.json yarn.lock # (Optional — remove only if lockfiles are not used)
+
+# Misc
+*.tgz
